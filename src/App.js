@@ -3,13 +3,12 @@ import Weather from "./Weather"
 function App() {
   return (
     <div className="App">
-      <Weather defaultcity="New York"/>
+      <Weather defaultcity="New York" />
       <footer className="GitHub-link">
-  
-          <a href="https://github.com/njm-5558/wearhet-react">
-            Open-source code
-          </a>
-          <span> ,by Najme Babai, SheCodes student</span>
+        <a href="https://github.com/njm-5558/react-weather-week5">
+          Open-source code
+        </a>
+        <span> ,by Najme Babai, SheCodes student</span>
       </footer>
     </div>
   );
