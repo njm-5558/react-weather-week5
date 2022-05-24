@@ -23,7 +23,7 @@ return (
             <span className="temperature">
               {Math.round(props.data.temperature)}
             </span>
-            <span className="unit">C</span>
+            <span className="unit">°C|°F</span>
           </div>
         </div>
 
