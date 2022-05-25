@@ -17,7 +17,7 @@ function handleResponse(response){
     date: new Date(response.data.dt * 1000),
     description: response.data.weather[0].description,
     iconUrl:
-      `http://opemweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+      `http://openweathermap.org/img/wn//${response.data.weather[0].icon}@2x.png`
   });
   setReady(true);
 }
